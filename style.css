@@ -1,0 +1,138 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(240,240,240);
+}
+
+.title {
+  text-align: center;
+  box-shadow: 6px 6px 10px rgba(128, 128, 128, 0.33);
+  background-color: white;
+  margin: 40px auto 0 auto;
+  border-radius: 20px;
+  padding: 15px;
+  width: 700px;
+}
+
+
+
+
+.info {
+  text-align: center;
+  box-shadow: 6px 6px 10px rgba(128, 128, 128, 0.33);
+  background-color: white;
+  margin: 40px auto 0 auto;
+  border-radius: 20px;
+  padding: 15px;
+  width: 700px;
+}
+
+
+.info li {
+  font-size: 19px;
+  text-align: left;
+}
+
+
+h1 {
+    color: #42240c;
+    font-size: 40px;
+}
+
+
+h2 {
+  color: #42240c;
+}
+
+.headshot {
+  width: 140px;
+  border-radius: 50%;
+
+}
+
+.icon {
+  text-align: center;
+  background-color: white;
+  margin: 40px auto 0 auto;
+  box-shadow: 6px 6px 10px rgba(128, 128, 128, 0.33);
+  border-radius: 20px;
+  padding: 15px;
+  width: 700px;
+
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  border: 5px solid #42240c;
+  border-radius: 10px;
+  background-color: #42240c;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.button:hover {
+  color: #42240c;
+  opacity: 0.6;
+}
+
+ul {
+  padding: 0;
+}
+
+.icon li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 4px;
+  font-size: 29px;
+}
+
+.venues {
+  text-align: center;
+  background-color: white;
+  box-shadow: 6px 6px 10px rgba(128, 128, 128, 0.33);
+  border-radius: 20px;
+  margin: 40px auto 0 auto;
+  padding: 15px;
+  width: 700px;
+}
+
+.venue {
+  width: 150px;
+  padding:10px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+.fab {
+  color: black;
+  list-style: none;
+}
+
+.fab:hover {
+  color: #e1f4f3
+}
+
+
+@media (max-width: 900px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+.img-holder {
+  display: inline;
+  position: relative;
+  width: 200px;
+  height: 180px;
+}
+
+
+
